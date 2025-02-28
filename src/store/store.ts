@@ -1,10 +1,10 @@
 import {configureStore} from "@reduxjs/toolkit";
-// import warehouseReducer from "../reducers/warehouse-slice.ts";
+import userReducer from "../reducers/user-slice.ts";
 import {injectStore} from "../api/api-instance.ts";
 
 export const store = configureStore({
     reducer: {
-        // warehouse: warehouseReducer,
+        user: userReducer,
     },
 });
 

@@ -2,10 +2,8 @@ import './App.css'
 import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom";
 import {RootLayout} from "./components/layout/RootLayout.tsx";
 import {UserSignInPage} from "./pages/UserSignInPage.tsx";
-import {UserSignUpPage} from "./pages/UserSignUpPage.tsx";
 import {NotFoundPage} from "./pages/NotFoundPage.tsx";
-import {DashboardPage} from "./pages/DashboardPage.tsx";
-import {OTPVerificationPage} from "./pages/OTPVerificationPage.tsx";
+import {UserSignUpPage} from "./pages/UserSignUpPage.tsx";
 
 function App() {
 
@@ -17,8 +15,8 @@ function App() {
                 { path: '', element: <Navigate to="/signin" replace /> },
                 { path : '/signin', element : <UserSignInPage/>},
                 { path : '/signup', element : <UserSignUpPage/>},
-                { path : '/verify-otp', element : <OTPVerificationPage/> },
-                { path : '/dashboard', element : <DashboardPage/>},
+                // { path : '/verify-otp', element : <OTPVerificationPage/> },
+                // { path : '/dashboard', element : <DashboardPage/>},
             ]
         },
         {

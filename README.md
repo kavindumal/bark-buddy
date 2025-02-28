@@ -119,7 +119,7 @@ The build artifacts will be stored in the `build/` directory.
 │   ├── App.tsx
 │   ├── index.tsx
 │   └── ...
-├── tailwind.config.js
+├── tailwind.config.cjs
 ├── tsconfig.json
 ├── package.json
 └── ...

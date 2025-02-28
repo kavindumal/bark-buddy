@@ -1,6 +1,6 @@
 import {Component, ReactElement, useEffect, useMemo, useState} from "react";
 import {Router} from '@toolpad/core/AppProvider';
-// import {WarehousesPage} from "../../../pages/WarehousesPage.tsx";
+import {UserSignUpPage} from "../../../pages/UserSignUpPage.tsx";
 import {NotFoundPage} from "../../../pages/NotFoundPage.tsx";
 import {MainPage} from "../../../pages/MainPage.tsx";
 import {Navigate, useNavigate} from "react-router-dom";
@@ -16,6 +16,7 @@ export function DashboardRouterComponent(initialPath: string): Router  & { Compo
 
     const routes: RouteConfig = {
         '/dashboard': <MainPage />,
+        'signup': <UserSignUpPage />,
         // '/warehouses': <WarehousesPage />,
         // '/customers': <CustomerPage />,
         '/logout': <Navigate to="/signin" replace />
