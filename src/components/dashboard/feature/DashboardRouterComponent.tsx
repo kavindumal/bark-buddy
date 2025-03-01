@@ -5,6 +5,7 @@ import {NotFoundPage} from "../../../pages/NotFoundPage.tsx";
 import {MainPage} from "../../../pages/MainPage.tsx";
 import {Navigate, useNavigate} from "react-router-dom";
 import {toast} from "sonner";
+import {WarehousesPage} from "../../../pages/WarehousesPage.tsx";
 
 type RouteConfig = {
     [path: string]: ReactElement;
