@@ -6,7 +6,7 @@ interface ImageProps {
 }
 
 export const AuthImageComponent: React.FC<ImageProps> = ({ src, alt }) => (
-    <div className="w-1/2 hidden md:block">
-        <img src={src} alt={alt} className="h-full w-full object-cover"/>
+    <div className="w-1/2 h-[575px] hidden md:block">
+        <img src={src} alt={alt} className="w-full object-cover"/> {/* Adjusted height */}
     </div>
 );

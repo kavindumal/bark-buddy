@@ -59,7 +59,7 @@ export const UserSignUpPage = () => {
                 transition={{ duration: 0.5 }}
                 className="flex w-full max-w-4xl bg-white rounded-xl shadow-xl overflow-hidden"
             >
-                <AuthImageComponent src="src/assets/logo.png" alt="Bark Buddy Sign Up" className="hidden md:block w-1/2" />
+                <AuthImageComponent src="src/assets/createAccImg.png" alt="Bark Buddy Sign Up" className="hidden md:block w-1/2" />
                 <div className="w-full md:w-1/2 p-10">
                     <div className="text-center mb-6">
                         <h2 className="text-3xl font-bold text-brown-700 animate-pulse">Join the Bark Buddy Family!</h2>

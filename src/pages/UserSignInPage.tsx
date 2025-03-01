@@ -51,7 +51,7 @@ export const UserSignInPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-400 to-blue-700 p-6"
+            className="min-h-screen flex items-center justify-center bg-gradient-to-br from-yellow-300 via-orange-200 to-pink-400 p-6"
         >
             <motion.div
                 initial={{ y: -50, opacity: 0 }}
@@ -59,7 +59,7 @@ export const UserSignInPage = () => {
                 transition={{ duration: 0.5 }}
                 className="flex w-full max-w-4xl bg-white rounded-xl shadow-xl overflow-hidden"
             >
-                <AuthImageComponent src="src/assets/logo.png" alt="Sign In Illustration" className="hidden md:block w-1/2" />
+                <AuthImageComponent src="src/assets/loginPageImg.png" alt="Sign In Illustration" className="hidden md:block w-1/2" />
                 <div className="w-full md:w-1/2 p-10">
                     <div className="text-center mb-6">
                         <h2 className="text-3xl font-bold text-blue-700 animate-pulse">Welcome Back!</h2>
@@ -87,7 +87,7 @@ export const UserSignInPage = () => {
                         <AuthInputComponent id="password" type="password" placeholder="••••••••" label="Password" onChange={(e) => setPassword(e.target.value)} />
 
                         <div className="text-right">
-                            <a href="#" className="text-sm text-blue-600 hover:text-blue-500">Forgot password?</a>
+                            <a href="/forgetpassword" className="text-sm text-blue-600 hover:text-blue-500">Forgot password?</a>
                         </div>
 
                         <AuthButtonComponent type="submit" text="Login" onClick={handleSubmit} className="transition duration-300 transform hover:scale-105" />

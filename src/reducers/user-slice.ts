@@ -63,6 +63,18 @@ export const otpVerification = createAsyncThunk(
     }
 );
 
+export const resetPassword = createAsyncThunk(
+    'user/resetPassword',
+    async ({ email }: { email: string }, { rejectWithValue }) => {
+        try {
+            const response = await api.post('/reset-password', { email }, { withCredentials: true });
+            return response.data;
+        } catch (err: any) {
+            return rejectWithValue(err.response?.data?.message || "Password reset failed");
+        }
+    }
+);
+
 export const fetchUserAccount = createAsyncThunk(
     "user/fetchUserAccount",
     async (username:string) => {

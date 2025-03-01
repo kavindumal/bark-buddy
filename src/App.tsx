@@ -4,6 +4,8 @@ import {RootLayout} from "./components/layout/RootLayout.tsx";
 import {UserSignInPage} from "./pages/UserSignInPage.tsx";
 import {NotFoundPage} from "./pages/NotFoundPage.tsx";
 import {UserSignUpPage} from "./pages/UserSignUpPage.tsx";
+import {ForgotPasswordPage} from "./pages/ForgetPasswordPage.tsx";
+import {DashboardPage} from "./pages/DashboardPage.tsx";
 
 function App() {
 
@@ -12,11 +14,12 @@ function App() {
             path: '',
             element : <RootLayout/>,
             children : [
-                { path: '', element: <Navigate to="/signin" replace /> },
+                { path: '', element: <Navigate to="/dashboard" replace /> },
                 { path : '/signin', element : <UserSignInPage/>},
                 { path : '/signup', element : <UserSignUpPage/>},
+                { path : '/dashboard', element : <DashboardPage/>},
                 // { path : '/verify-otp', element : <OTPVerificationPage/> },
-                // { path : '/dashboard', element : <DashboardPage/>},
+                { path : '/forgetpassword', element : <ForgotPasswordPage/>},
             ]
         },
         {

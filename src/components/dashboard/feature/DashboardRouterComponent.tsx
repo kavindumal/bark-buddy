@@ -17,7 +17,7 @@ export function DashboardRouterComponent(initialPath: string): Router  & { Compo
     const routes: RouteConfig = {
         '/dashboard': <MainPage />,
         'signup': <UserSignUpPage />,
-        // '/warehouses': <WarehousesPage />,
+        '/warehouses': <WarehousesPage />,
         // '/customers': <CustomerPage />,
         '/logout': <Navigate to="/signin" replace />
     };
