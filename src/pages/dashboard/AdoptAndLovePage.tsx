@@ -25,10 +25,10 @@ export default function AdoptPage() {
             {/* Dog Listings */}
             <section className="py-12 px-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <DogCard name="Charlie" age="2 Years" breed="Golden Retriever" image="https://source.unsplash.com/300x200/?goldenretriever" />
-                    <DogCard name="Luna" age="1.5 Years" breed="Husky" image="https://source.unsplash.com/300x200/?husky" />
-                    <DogCard name="Rocky" age="3 Years" breed="Beagle" image="https://source.unsplash.com/300x200/?beagle" />
-                    <DogCard name="Bella" age="2 Years" breed="Poodle" image="https://source.unsplash.com/300x200/?poodle" />
+                    <DogCard name="Charlie" age="2 Years" breed="Golden Retriever" image="https://imgs.search.brave.com/IHHaIjNXMCaCTQhKFdMZbALGfhWEn1ZrV9dybFHQgcg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzY4LzkzLzc2/LzM2MF9GXzE2ODkz/NzY2OV9mbFhpZVgw/Vjh6dG1CV1laRUx5/SmZDSnBzMFJ5WVhC/My5qcGc" />
+                    <DogCard name="Luna" age="1.5 Years" breed="Husky" image="https://imgs.search.brave.com/7WHHEuGufhv8g2bpjdLHRhou4ZOmFtb_f0UpecYZFe0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU0/MDI1MzI4NC9waG90/by9zaWRlLXZpZXct/cG9ydHJhaXQtb2Yt/aHVza3ktZG9nLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1W/bU11cXluWmt1TGJY/b1c2bnBHTlRrUjBy/UHlRM1RTdzN6N2VM/S3FjYlpzPQ" />
+                    <DogCard name="Rocky" age="3 Years" breed="Beagle" image="https://imgs.search.brave.com/bsiunvxzX-_guiMUgXikxw_6LAWBRZXzwyqIO8BOT1A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kb2d0/aW1lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvc2l0ZXMvMTIv/MjAyMy8wNy9HZXR0/eUltYWdlcy0xNDE2/MTAwNzE2LWUxNjkw/NzY5NjI4NjM5Lmpw/Zz93PTEwMjQ" />
+                    <DogCard name="Bella" age="2 Years" breed="Poodle" image="https://imgs.search.brave.com/ekHbaUKnOBaffxmrQrG_ezVXxAwW5Mf-utG0QVYr_CA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzM1LzgyLzI0/LzM2MF9GXzMzNTgy/MjQ5OV9pbWNFVlhr/Y0Nqb3J1QVNpcVAw/Q0xwZ3MyZmlldzZq/VS5qcGc" />
                     <DogCard name="Milo" age="4 Years" breed="Shiba Inu" image="https://source.unsplash.com/300x200/?shiba" />
                     <DogCard name="Cooper" age="1 Year" breed="Dachshund" image="https://source.unsplash.com/300x200/?dachshund" />
                 </div>

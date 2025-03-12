@@ -4,8 +4,8 @@ import { FaPlus, FaExclamationTriangle } from "react-icons/fa";
 
 export default function MyPetPage() {
     const [dogs, setDogs] = useState([
-        { id: 1, name: "Buddy", breed: "Golden Retriever", age: "2 Years", status: "Safe", image: "https://source.unsplash.com/300x200/?goldenretriever" },
-        { id: 2, name: "Max", breed: "Labrador", age: "1.5 Years", status: "Safe", image: "https://source.unsplash.com/300x200/?labrador" },
+        { id: 1, name: "Buddy", breed: "Golden Retriever", age: "2 Years", status: "Safe", image: "https://imgs.search.brave.com/mvFaYGOTbMbb0-go8QHoeTcXb7xLh6xKpQzQhxChN-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzkwLzg0LzQ3/LzM2MF9GXzI5MDg0/NDc4MV9WNGhvSUwz/RTI5MXh2WTVuRUw3/TkNhV0lvQ0lReEhm/SS5qcGc" },
+        { id: 2, name: "Max", breed: "Labrador", age: "1.5 Years", status: "Safe", image: "https://imgs.search.brave.com/ZxPDDZs412jPOmgFxtbeHdtaSMfXSO157pcp8yIJsGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5wZXRtZC5jb20v/ZmlsZXMvc3R5bGVz/Lzk3OHg1NTAvcHVi/bGljLzIwMjQtMTEv/bGFicmFkb3ItcmV0/cmlldmVyLmpwZz93/PTIwNDgmcT03NQ" },
     ]);
 
     const [newDog, setNewDog] = useState({ name: "", breed: "", age: "", image: "" });

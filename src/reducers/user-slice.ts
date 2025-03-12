@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-import {apiInstance} from "../api/api-instance.ts";
+import { apiInstance } from "../api/api-instance.ts";
 
 const initialState = {
     jwt_token: null as string | null,
@@ -63,21 +63,9 @@ export const otpVerification = createAsyncThunk(
     }
 );
 
-export const resetPassword = createAsyncThunk(
-    'user/resetPassword',
-    async ({ email }: { email: string }, { rejectWithValue }) => {
-        try {
-            const response = await api.post('/reset-password', { email }, { withCredentials: true });
-            return response.data;
-        } catch (err: any) {
-            return rejectWithValue(err.response?.data?.message || "Password reset failed");
-        }
-    }
-);
-
 export const fetchUserAccount = createAsyncThunk(
     "user/fetchUserAccount",
-    async (username:string) => {
+    async (username: string) => {
         try {
             const response = await apiInstance.get(`user/get-user`, { params: { username } });
             console.log("response", response.data);
@@ -170,13 +158,13 @@ const userSlice = createSlice({
             state.isAuthenticated = false;
             state.error = action.payload as string;
         });
+
         builder.addCase(fetchUserAccount.pending, (state) => {
             state.loading = true;
             state.error = "";
         });
         builder.addCase(fetchUserAccount.fulfilled, (state, action) => {
             state.loading = false;
-            state.userDetail = action.payload;
         });
         builder.addCase(fetchUserAccount.rejected, (state, action) => {
             state.loading = false;

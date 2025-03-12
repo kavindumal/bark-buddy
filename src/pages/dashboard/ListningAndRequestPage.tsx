@@ -12,7 +12,7 @@ export default function ListingsAndRequestsPage() {
             price: "$500",
             status: "Available",
             type: "Sale",
-            image: "https://source.unsplash.com/300x200/?goldenretriever",
+            image: "https://imgs.search.brave.com/rZP3gi5-TLqlva_8AA7rj5EQG8IF5CpSqaYWvlb8Dvw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTYy/MzEzNDMwNi9waG90/by9iZWF1dGlmdWwt/Z29sZGVuLXJldHJp/ZXZlci1kb2ctaW4t/dGhlLXBhcmsuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVN3/WFMyYTRqUmp3Uk9B/SngtT0VnYVppbVFw/b3lhVkhBV3BBTVVf/akNZbzg9",
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ export default function ListingsAndRequestsPage() {
             price: "Free",
             status: "Pending Adoption",
             type: "Adoption",
-            image: "https://source.unsplash.com/300x200/?labrador",
+            image: "https://imgs.search.brave.com/9kmOZ27HNPWlNgiFd_pNZVhUllsD7qPpUihyyt59pZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kMzU0/NGxhMXU4ZGp6YS5j/bG91ZGZyb250Lm5l/dC9BUEhJL0Jsb2cv/MjAyMy9yZXNvdXJj/ZXMvTGFicmFkb3Iu/anBn",
         },
     ]);
 

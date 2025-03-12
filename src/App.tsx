@@ -23,7 +23,7 @@ function App() {
                 { path: '', element: <Navigate to="/signin" replace /> },
                 { path: '/signin', element: <UserSignInPage /> },
                 { path: '/signup', element: <UserSignUpPage /> },
-                { path: '/forgetpassword', element: <ForgotPasswordPage /> },
+                // { path: '/forgetpassword', element: <ForgotPasswordPage /> },
             ]
         },
         {

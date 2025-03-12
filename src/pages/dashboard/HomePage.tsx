@@ -37,9 +37,9 @@ export default function HomePage() {
             <section className="py-12 px-8">
                 <h2 className="text-4xl font-bold text-center text-indigo-900">🐾 Featured Dogs for Adoption</h2>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <DogCard name="Buddy" age="2 Years" breed="Golden Retriever" image="https://source.unsplash.com/300x200/?goldenretriever" />
-                    <DogCard name="Max" age="1.5 Years" breed="Labrador" image="https://source.unsplash.com/300x200/?labrador" />
-                    <DogCard name="Bella" age="3 Years" breed="Beagle" image="https://source.unsplash.com/300x200/?beagle" />
+                    <DogCard name="Buddy" age="2 Years" breed="Golden Retriever" image="https://th.bing.com/th/id/OIP.hog0gTNml1R_fGarwNm3mwHaHa?w=900&h=900&rs=1&pid=ImgDetMain" />
+                    <DogCard name="Max" age="1.5 Years" breed="Labrador" image="https://th.bing.com/th/id/OIP.2a11LtDRkPxMkgrymX-wTwHaD4?rs=1&pid=ImgDetMain" />
+                    <DogCard name="Bella" age="3 Years" breed="Beagle" image="https://wagbrag.com/wp-content/uploads/2012/11/beagle.jpg" />
                 </div>
             </section>
 

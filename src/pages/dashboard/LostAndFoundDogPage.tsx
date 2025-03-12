@@ -28,9 +28,9 @@ export default function LostAndFoundPage() {
             <section className="py-12 px-8">
                 <h2 className="text-4xl font-bold text-center text-indigo-900">📍 Reported Dogs</h2>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <LostFoundCard name="Charlie" status="Lost" location="Central Park" image="https://source.unsplash.com/300x200/?dog" />
-                    <LostFoundCard name="Luna" status="Found" location="Downtown" image="https://source.unsplash.com/300x200/?puppy" />
-                    <LostFoundCard name="Rocky" status="Lost" location="Westside Street" image="https://source.unsplash.com/300x200/?husky" />
+                    <LostFoundCard name="Charlie" status="Lost" location="Central Park" image="https://imgs.search.brave.com/xG517hQIgHVZWs4-GnHfQzSIqFQNj20htOOByflmLa8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/ZG9yYWJsZS1zaGli/YS1pbnUtZG9nXzIz/LTIxNDg5OTE4Njcu/anBnP3NlbXQ9YWlz/X2h5YnJpZA" />
+                    <LostFoundCard name="Luna" status="Found" location="Downtown" image="https://imgs.search.brave.com/ug2ay_GfGrXvy-Q1NSL7YviGhO6DHgh7hLC2L6WAeM4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODM0/NTk5OTA4L3Bob3Rv/L3RveS1wb29kbGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTQ5am5yWnloZXdG/SmVqRVRiNnk2T3Zv/cUljM3FGU1k4bzE0/TmU4TFlaSms9" />
+                    <LostFoundCard name="Rocky" status="Lost" location="Westside Street" image="https://imgs.search.brave.com/tptpJJ56EUsw6Dh0tS23MdVi75ipBGsda3vseZDT9sE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTE5/MDExMzM1L3Bob3Rv/L2JlYWdsZS1wdXBw/eS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9R0xCRnJZRFY5/a0lFaC12MlBIcHZa/ODRZNmFqczU4VXhr/WFZEVmNrMmczUT0" />
                 </div>
             </section>
         </motion.div>
